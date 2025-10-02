@@ -18,13 +18,13 @@ document.addEventListener("DOMContentLoaded",()=>{
     }
     //Task creation and removal
 
-    constlistItem = document.createElement("li");
-    listItem.textCOntent = taskText;
+    const listItem = document.createElement("li");
+    listItem.textContent = taskText;
 
     // Creating a new button
     const removeBtn = document.createElement("button");
     removeBtn.textContent = "Remove";
-    removeBtn.classList.add = "remove-btn";
+    removeBtn.classList.add("remove-btn");
 
 
     //Add click event to remove the task
